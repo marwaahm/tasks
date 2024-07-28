@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Examples</title>
+</head>
+<body>
+  <h1>Application Form</h1>
+  <form action="/home/receive">
+    <label for="firstName">First Name :</label>
+    <input type="text" name="firstName" id="firstName" />
+    <label for="lastName">Last Name :</label>
+    <input type="text" name="lastName" id="lastName" />
+    <br/>
+    <br>
+      <label for="date of birth"> Date of birth :</label>
+      <input type="date" name="date of birth" id="bdate of birth" placeholder="mm/ dd/ yyyy"/>
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" min="0"/>
+     <br>
+     <br>
+        <label for="Gender">Gender:</label>        
+        <select name="gender" id="Gender">
+        <option value="1">Male</option>
+        <option value="1">Female</option>
+  </select>
+
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email" placeholder="Enter email address">
+   <br>
+   <br>
+   <p>Position Avilable:
+   <label for="junior">Junior Developer</label>
+   <input type="radio" name="Position avilable" id="junior" value="m">
+   <label for="midlevel">Mid-level Developer</label>
+   <input type="radio" name="Position avilable" id="midlevel" value="m">
+   <label for="Senior">Senior Developer</label>
+   <input type="radio" name="Position avilable" id="Senior" value="m">
+   </p> 
+<p>Programming Language:
+    <label for="java">Java</label>
+    <input type="checkbox" name="java" id="java">
+    <label for="java script">Java Script</label>
+    <input type="checkbox" name="java script" id="java script">
+    <label for="paython">Paython</label>
+    <input type="checkbox" name="paython" id="paython">
+    </p> 
+
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd">
+    <label for="pwd">Confirm Password:</label>
+    <input type="password" id="pwd" name="pwd">
+    <br>
+    <br>
+    <input type="submit" value="Submet">
+    <input type="submit" value="Reset">
+  </form>
+</body>
+</html>
